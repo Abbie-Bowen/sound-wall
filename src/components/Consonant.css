@@ -1,0 +1,217 @@
+/* grid set up */
+.consonant {
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(10, min-content);
+    grid-template-areas:
+        "header header header header header header header header header"
+        "hsub hsub hsub hsub hsub hsub hsub hsub hsub"
+        "sidesub . h1 h2 h3 h4 h5 h6 h7"
+        "sidesub sh1 s1 s2 s3 s4 s5 s6 s7"
+        "sidesub sh2 n1 n2 n3 n4 n5 n6 n7"
+        "sidesub sh3 f1 f2 f3 f4 f5 f6 f7"
+        "sidesub sh4 a1 a2 a3 a4 a5 a6 a7"
+        "sidesub sh5 g1 g2 g3 g4 g5 g6 g7"
+        "sidesub sh6 l1 l2 l3 l4 l5 l6 l7"
+        "footer footer footer footer footer footer footer footer back";
+    gap: .5rem;
+}
+
+/* headers */
+h2.consonant-header {
+    grid-area: header;
+    font-size: 4em;
+    margin: 0;
+}
+
+h3.horizontal {
+    grid-area: hsub;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h3.vertical {
+    grid-area: sidesub;
+    writing-mode:vertical-rl;
+    transform: rotate(180deg);
+    font-size: 1.5em;
+    justify-self: end;
+    align-self: center;
+}
+
+/* chart labels */
+.h1 {
+    grid-area: h1;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+
+.h2 {
+    grid-area: h2;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+
+.h3 {
+    grid-area: h3;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+.h4 {
+    grid-area: h4;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+.h5 {
+    grid-area: h5;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+.h6 {
+    grid-area: h6;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+.h7 {
+    grid-area: h7;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+
+.sh1 {
+    grid-area: sh1;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+.sh2 {
+    grid-area: sh2;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+.sh3 {
+    grid-area: sh3;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+.sh4 {
+    grid-area: sh4;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+.sh5 {
+    grid-area: sh5;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+.sh6 {
+    grid-area: sh6;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+}
+
+.subheader {
+    font-size:.7em;
+}
+
+/* placing cards */
+
+.s1 {
+    grid-area: s1;
+    place-self: center;
+}
+
+.s4 {
+    grid-area: s4;
+    place-self: center;
+}
+
+.s6 {
+    grid-area: s6;
+    place-self: center;
+}
+
+.n1 {
+    grid-area: n1;
+    place-self: center;
+}
+
+.n4 {
+    grid-area: n4;
+    place-self: center;
+}
+
+.n6 {
+    grid-area: n6;
+    place-self: center;
+}
+
+.f2 {
+    grid-area: f2;
+    place-self: center;
+}
+
+.f3 {
+    grid-area: f3;
+    place-self: center;
+}
+
+.f4 {
+    grid-area: f4;
+    place-self: center;
+}
+
+.f5 {
+    grid-area: f5;
+    place-self: center;
+}
+
+.f7 {
+    grid-area: f7;
+    place-self: center;
+}
+
+.a5 {
+    grid-area: a5;
+    place-self: center;
+}
+
+.g1 {
+    grid-area: g1;
+    place-self: center;
+}
+
+.g5 {
+    grid-area: g5;
+    place-self: center;
+}
+
+.l4 {
+    grid-area: l4;
+    place-self: center;
+}
+
+.l5 {
+    grid-area: l5;
+    place-self: center;
+}
+
+/* back button */
+.back {
+    grid-area: back;
+    place-self: center;
+}
