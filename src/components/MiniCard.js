@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import test from "/media/images/sir-manuel-4P831Njlg6g-unsplash.jpg";
+import test from "../media/images/sir-manuel-4P831Njlg6g-unsplash.jpg";
 
 class MiniCard extends Component {
     render() {

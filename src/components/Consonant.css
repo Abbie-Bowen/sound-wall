@@ -1,10 +1,11 @@
 /* grid set up */
 .consonant {
+    max-width: 98%;
     justify-content: center;
     display: grid;
     text-align: center;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(10, min-content);
+    grid-template-columns: min-content repeat(8, 1fr);
+    grid-template-rows:fit-content min-content min-content repeat(6, 1fr);
     grid-template-areas:
         "header header header header header header header header header"
         "hsub hsub hsub hsub hsub hsub hsub hsub hsub"
@@ -14,21 +15,20 @@
         "sidesub sh3 f1 f2 f3 f4 f5 f6 f7"
         "sidesub sh4 a1 a2 a3 a4 a5 a6 a7"
         "sidesub sh5 g1 g2 g3 g4 g5 g6 g7"
-        "sidesub sh6 l1 l2 l3 l4 l5 l6 l7"
-        "footer footer footer footer footer footer footer footer back";
-    gap: .5rem;
+        "sidesub sh6 l1 l2 l3 l4 l5 l6 back";
+    gap: .5vw;
 }
 
 /* headers */
 h2.consonant-header {
     grid-area: header;
-    font-size: 4em;
+    font-size: 5vw;
     margin: 0;
 }
 
 h3.horizontal {
     grid-area: hsub;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     margin: 0;
 }
 
@@ -36,7 +36,7 @@ h3.vertical {
     grid-area: sidesub;
     writing-mode:vertical-rl;
     transform: rotate(180deg);
-    font-size: 1.5em;
+    font-size: 1.5vw;
     justify-self: end;
     align-self: center;
 }
@@ -44,6 +44,7 @@ h3.vertical {
 /* chart labels */
 .h1 {
     grid-area: h1;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
@@ -51,6 +52,7 @@ h3.vertical {
 
 .h2 {
     grid-area: h2;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
@@ -58,30 +60,35 @@ h3.vertical {
 
 .h3 {
     grid-area: h3;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
 }
 .h4 {
     grid-area: h4;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
 }
 .h5 {
     grid-area: h5;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
 }
 .h6 {
     grid-area: h6;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
 }
 .h7 {
     grid-area: h7;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
@@ -89,43 +96,49 @@ h3.vertical {
 
 .sh1 {
     grid-area: sh1;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
 }
 .sh2 {
     grid-area: sh2;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
 }
 .sh3 {
     grid-area: sh3;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
 }
 .sh4 {
     grid-area: sh4;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
 }
 .sh5 {
     grid-area: sh5;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
 }
 .sh6 {
     grid-area: sh6;
+    font-size: 1vw;
     justify-self: center;
     align-self: end;
     margin: 0;
 }
 
 .subheader {
-    font-size:.7em;
+    font-size:1vw;
 }
 
 /* placing cards */
@@ -213,5 +226,33 @@ h3.vertical {
 /* back button */
 .back {
     grid-area: back;
+    align-self: end;
+    justify-self: center;
+}
+
+/* mini card styling */
+
+.mini {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(15, 41, 63);
+    max-width: 98%;
+    max-height: 98%;
+    padding: 1%;
+    gap: 0px;
+    object-fit: scale-down;
+}
+
+.mini-img {
     place-self: center;
+    max-width: 90%;
+    border: .2em white solid;
+    margin: 2px;
+}
+
+.mini-text {
+    color: white;
+    font-size: 1vw;
+    margin: 1px;
 }
