@@ -1,0 +1,178 @@
+/* grid set up */
+.vowel {
+    max-width: 99%;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows:fit-content repeat(6, fit-content) 1fr repeat(4, fit-content);
+    grid-template-areas:
+        "header header header header header header header header header header header header header"
+        "c1 l1 l1 l1 . . . . . . . . ."
+        "c1 c2 . . . . . . . . . . ."
+        ". c2 c3 . . . . . . . . c12 c13"
+        ". . c3 c4 . . . . . . c11 c12 c13"
+        "l2 l2 l2 c4 c5 . . . . c10 c11 . ."
+        "l2 l2 l2 . c5 c6 . . c9 c10 l4 l4 l4"
+        ". . . . . c6 . c8 c9 . l4 l4 l4"
+        ". . . . . c6 c7 c8 c9 . l4 l4 l4"
+        "ld ld . . . . c7 c8 . . lr lr lr"
+        "d1 d2 . l3 l3 l3 l3 l3 l3 . r1 r2 r3"
+        "d1 d2 . . . . . . . . r1 r2 r3";
+    gap: .5vw;
+}
+
+/* headers */
+h2.vowel-header {
+    grid-area: header;
+    font-size: 5vw;
+    margin: 0%;
+}
+
+/* chart labels */
+.l1 {
+    grid-area: l1;
+    place-self: center;
+    font-size: 1.5vw;
+    margin: 0%;
+}
+
+.l2 {
+    grid-area: l2;
+    place-self: center;
+    font-size: 1.5vw;
+    margin: 0%;
+}
+
+.l3 {
+    grid-area: l3;
+    place-self: center;
+    font-size: 1.5vw;
+    margin: 0%;
+}
+
+.l4 {
+    grid-area: l4;
+    place-self: center;
+    font-size: 1.5vw;
+    margin: 0%;
+}
+
+.lr {
+    grid-area: lr;
+    justify-self: center;
+    text-align: end;
+    font-size: 2vw;
+    margin: 0em;
+}
+
+.ld {
+    grid-area: ld;
+    text-align: end;
+    justify-self: center;
+    font-size: 2vw;
+    margin: 0em;
+}
+
+/* placing cards */
+.c1 {
+    grid-area: c1;
+}
+
+.c2 {
+    grid-area: c2;
+}
+
+.c3 {
+    grid-area: c3;
+}
+
+.c4 {
+    grid-area: c4;
+}
+
+.c5 {
+    grid-area: c5;
+}
+
+.c6 {
+    grid-area: c6;
+}
+
+.c7 {
+    grid-area: c7;
+}
+
+.c8 {
+    grid-area: c8;
+}
+
+.c9 {
+    grid-area: c9;
+}
+
+.c10 {
+    grid-area: c10;
+}
+
+.c11 {
+    grid-area: c11;
+}
+
+.c12 {
+    grid-area: c12;
+}
+
+.c13 {
+    grid-area: c13;
+}
+
+.d1 {
+    grid-area: d1;
+}
+
+.d2 {
+    grid-area: d2;
+}
+
+.r1 {
+    grid-area: r1;
+}
+
+.r2 {
+    grid-area: r2;
+}
+.r3 {
+    grid-area: r3;
+
+}
+
+/* back button */
+.back {
+    margin: auto 0;
+}
+
+/* mini card styling */
+
+.vowel-mini {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 25% 2% 15% 2%;
+    gap: 0px;
+    align-self: center;
+    background-color: rgb(15, 41, 63);
+}
+
+.vowel-mini img {
+    /* place-self: center; */
+    max-width: 90%;
+    border: .2em white solid;
+}
+
+.vowel-mini p {
+    color: white;
+    font-size: 1em;
+    margin: .2em;
+}

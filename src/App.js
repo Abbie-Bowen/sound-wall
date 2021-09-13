@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       {/* <Home /> */}
-      <ConsonantChart />
-      {/* <VowelValley /> */}
+      {/* <ConsonantChart /> */}
+      <VowelValley />
     </div>
   );
 }

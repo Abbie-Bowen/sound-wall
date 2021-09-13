@@ -39,22 +39,22 @@ class ConsonantChart extends Component {
                 <div className="sh6">
                     <p><b><u>LIQUIDS</u></b></p>
                 </div>
-                <div className="s1"><MiniCard /></div>
-                <div className="s4"><MiniCard /></div>
-                <div className="s6"><MiniCard /></div>
-                <div className="n1"><MiniCard /></div>
-                <div className="n4"><MiniCard /></div>
-                <div className="n6"><MiniCard /></div>
-                <div className="f2"><MiniCard /></div>
-                <div className="f3"><MiniCard /></div>
-                <div className="f4"><MiniCard /></div>
-                <div className="f5"><MiniCard /></div>
-                <div className="f7"><MiniCard /></div>
-                <div className="a5"><MiniCard /></div>
-                <div className="g1"><MiniCard /></div>
-                <div className="g5"><MiniCard /></div>
-                <div className="l4"><MiniCard /></div>
-                <div className="l5"><MiniCard /></div>
+                <div className="s1"><MiniCard className={"consonant-mini"} /></div>
+                <div className="s4"><MiniCard className={"consonant-mini"} /></div>
+                <div className="s6"><MiniCard className={"consonant-mini"} /></div>
+                <div className="n1"><MiniCard className={"consonant-mini"} /></div>
+                <div className="n4"><MiniCard className={"consonant-mini"} /></div>
+                <div className="n6"><MiniCard className={"consonant-mini"} /></div>
+                <div className="f2"><MiniCard className={"consonant-mini"} /></div>
+                <div className="f3"><MiniCard className={"consonant-mini"} /></div>
+                <div className="f4"><MiniCard className={"consonant-mini"} /></div>
+                <div className="f5"><MiniCard className={"consonant-mini"} /></div>
+                <div className="f7"><MiniCard className={"consonant-mini"} /></div>
+                <div className="a5"><MiniCard className={"consonant-mini"} /></div>
+                <div className="g1"><MiniCard className={"consonant-mini"} /></div>
+                <div className="g5"><MiniCard className={"consonant-mini"} /></div>
+                <div className="l4"><MiniCard className={"consonant-mini"} /></div>
+                <div className="l5"><MiniCard className={"consonant-mini"} /></div>
                 <div className="sub_nav back">
                     <button>Back</button>
                 </div>
