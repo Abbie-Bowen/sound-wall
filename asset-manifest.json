@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sound-wall/static/css/main.b7a6e385.chunk.css",
-    "main.js": "/sound-wall/static/js/main.69de9a35.chunk.js",
-    "main.js.map": "/sound-wall/static/js/main.69de9a35.chunk.js.map",
+    "main.css": "/sound-wall/static/css/main.178c2515.chunk.css",
+    "main.js": "/sound-wall/static/js/main.8138dc93.chunk.js",
+    "main.js.map": "/sound-wall/static/js/main.8138dc93.chunk.js.map",
     "runtime-main.js": "/sound-wall/static/js/runtime-main.b9591535.js",
     "runtime-main.js.map": "/sound-wall/static/js/runtime-main.b9591535.js.map",
     "static/js/2.32a676fc.chunk.js": "/sound-wall/static/js/2.32a676fc.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.71549fe3.chunk.js": "/sound-wall/static/js/3.71549fe3.chunk.js",
     "static/js/3.71549fe3.chunk.js.map": "/sound-wall/static/js/3.71549fe3.chunk.js.map",
     "index.html": "/sound-wall/index.html",
-    "static/css/main.b7a6e385.chunk.css.map": "/sound-wall/static/css/main.b7a6e385.chunk.css.map",
-    "static/js/2.32a676fc.chunk.js.LICENSE.txt": "/sound-wall/static/js/2.32a676fc.chunk.js.LICENSE.txt"
+    "static/css/main.178c2515.chunk.css.map": "/sound-wall/static/css/main.178c2515.chunk.css.map",
+    "static/js/2.32a676fc.chunk.js.LICENSE.txt": "/sound-wall/static/js/2.32a676fc.chunk.js.LICENSE.txt",
+    "static/media/sir-manuel-4P831Njlg6g-unsplash.f370bec6.jpg": "/sound-wall/static/media/sir-manuel-4P831Njlg6g-unsplash.f370bec6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b9591535.js",
     "static/js/2.32a676fc.chunk.js",
-    "static/css/main.b7a6e385.chunk.css",
-    "static/js/main.69de9a35.chunk.js"
+    "static/css/main.178c2515.chunk.css",
+    "static/js/main.8138dc93.chunk.js"
   ]
 }
