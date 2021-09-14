@@ -3,8 +3,14 @@ import React, {Component} from "react";
 import MiniCard from "./MiniCard"
 import {withRouter, Link} from "react-router-dom";
 
+const vowelCardPlacement = ["c1","c2","c3","c4","c5","c6","c7","c8","c9","c10","c11","c12","c13","d1","d2","r1","r2","r3"];
+
 class VowelValley extends Component {
     render() {
+        let cards = vowelCardPlacement.map((id, index) =>
+            <MiniCard className={"vowel-mini"} divId={id} key={index} />
+        );
+
         return(
             <div className="vowel">
                 <h2 className="vowel-header">Vowel Valley</h2>
@@ -26,24 +32,7 @@ class VowelValley extends Component {
                 <div className="lr">
                     <p>R-Controlled Vowels</p>
                 </div> 
-                <div className="c1"><MiniCard className={"vowel-mini"} /></div>
-                <div className="c2"><MiniCard className={"vowel-mini"}/></div>
-                <div className="c3"><MiniCard className={"vowel-mini"}/></div>
-                <div className="c4"><MiniCard className={"vowel-mini"}/></div>
-                <div className="c5"><MiniCard className={"vowel-mini"}/></div>
-                <div className="c6"><MiniCard className={"vowel-mini"}/></div>
-                <div className="c7"><MiniCard className={"vowel-mini"}/></div>
-                <div className="c8"><MiniCard className={"vowel-mini"}/></div>
-                <div className="c9"><MiniCard className={"vowel-mini"}/></div>
-                <div className="c10"><MiniCard className={"vowel-mini"}/></div>
-                <div className="c11"><MiniCard className={"vowel-mini"}/></div>
-                <div className="c12"><MiniCard className={"vowel-mini"}/></div>
-                <div className="c13"><MiniCard className={"vowel-mini"}/></div>
-                <div className="d1"><MiniCard className={"vowel-mini"}/></div>
-                <div className="d2"><MiniCard className={"vowel-mini"}/></div>
-                <div className="r1"><MiniCard className={"vowel-mini"}/></div>
-                <div className="r2"><MiniCard className={"vowel-mini"}/></div>
-                <div className="r3"><MiniCard className={"vowel-mini"}/></div>
+                {cards}
                 <div className="sub_nav back">
                     <Link to="/">Home</Link>
                 </div>

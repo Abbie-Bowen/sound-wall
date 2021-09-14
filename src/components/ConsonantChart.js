@@ -3,9 +3,14 @@ import React, {Component} from "react";
 import { withRouter, Link } from 'react-router-dom';
 import MiniCard from "./MiniCard"
 
+const consonantCardPlacement = ["s1", "s6", "n1","n4","n6","f2","f3","f4","f5","a5","g1","g5","l4","l5"];
 
 class ConsonantChart extends Component {
     render() {
+        let cards = consonantCardPlacement.map((id, index) =>
+            <MiniCard className={"consonant-mini"} divId={id} key={index} />
+        );
+
         return(
             <div className="consonant">
                 <h2 className="consonant-header">Consonant Chart</h2>
@@ -41,22 +46,7 @@ class ConsonantChart extends Component {
                 <div className="sh6">
                     <p><b><u>LIQUIDS</u></b></p>
                 </div>
-                <div className="s1"><MiniCard className={"consonant-mini"} /></div>
-                <div className="s4"><MiniCard className={"consonant-mini"} /></div>
-                <div className="s6"><MiniCard className={"consonant-mini"} /></div>
-                <div className="n1"><MiniCard className={"consonant-mini"} /></div>
-                <div className="n4"><MiniCard className={"consonant-mini"} /></div>
-                <div className="n6"><MiniCard className={"consonant-mini"} /></div>
-                <div className="f2"><MiniCard className={"consonant-mini"} /></div>
-                <div className="f3"><MiniCard className={"consonant-mini"} /></div>
-                <div className="f4"><MiniCard className={"consonant-mini"} /></div>
-                <div className="f5"><MiniCard className={"consonant-mini"} /></div>
-                <div className="f7"><MiniCard className={"consonant-mini"} /></div>
-                <div className="a5"><MiniCard className={"consonant-mini"} /></div>
-                <div className="g1"><MiniCard className={"consonant-mini"} /></div>
-                <div className="g5"><MiniCard className={"consonant-mini"} /></div>
-                <div className="l4"><MiniCard className={"consonant-mini"} /></div>
-                <div className="l5"><MiniCard className={"consonant-mini"} /></div>
+                {cards}
                 <div className="sub_nav back">
                     <Link to="/">Home</Link>
                 </div>

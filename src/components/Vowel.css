@@ -75,74 +75,74 @@ h2.vowel-header {
 }
 
 /* placing cards */
-.c1 {
+#c1 {
     grid-area: c1;
 }
 
-.c2 {
+#c2 {
     grid-area: c2;
 }
 
-.c3 {
+#c3 {
     grid-area: c3;
 }
 
-.c4 {
+#c4 {
     grid-area: c4;
 }
 
-.c5 {
+#c5 {
     grid-area: c5;
 }
 
-.c6 {
+#c6 {
     grid-area: c6;
 }
 
-.c7 {
+#c7 {
     grid-area: c7;
 }
 
-.c8 {
+#c8 {
     grid-area: c8;
 }
 
-.c9 {
+#c9 {
     grid-area: c9;
 }
 
-.c10 {
+#c10 {
     grid-area: c10;
 }
 
-.c11 {
+#c11 {
     grid-area: c11;
 }
 
-.c12 {
+#c12 {
     grid-area: c12;
 }
 
-.c13 {
+#c13 {
     grid-area: c13;
 }
 
-.d1 {
+#d1 {
     grid-area: d1;
 }
 
-.d2 {
+#d2 {
     grid-area: d2;
 }
 
-.r1 {
+#r1 {
     grid-area: r1;
 }
 
-.r2 {
+#r2 {
     grid-area: r2;
 }
-.r3 {
+#r3 {
     grid-area: r3;
 
 }

@@ -143,82 +143,82 @@ h3.vertical {
 
 /* placing cards */
 
-.s1 {
+#s1 {
     grid-area: s1;
     place-self: center;
 }
 
-.s4 {
+#s4 {
     grid-area: s4;
     place-self: center;
 }
 
-.s6 {
+#s6 {
     grid-area: s6;
     place-self: center;
 }
 
-.n1 {
+#n1 {
     grid-area: n1;
     place-self: center;
 }
 
-.n4 {
+#n4 {
     grid-area: n4;
     place-self: center;
 }
 
-.n6 {
+#n6 {
     grid-area: n6;
     place-self: center;
 }
 
-.f2 {
+#f2 {
     grid-area: f2;
     place-self: center;
 }
 
-.f3 {
+#f3 {
     grid-area: f3;
     place-self: center;
 }
 
-.f4 {
+#f4 {
     grid-area: f4;
     place-self: center;
 }
 
-.f5 {
+#f5 {
     grid-area: f5;
     place-self: center;
 }
 
-.f7 {
+#f7 {
     grid-area: f7;
     place-self: center;
 }
 
-.a5 {
+#a5 {
     grid-area: a5;
     place-self: center;
 }
 
-.g1 {
+#g1 {
     grid-area: g1;
     place-self: center;
 }
 
-.g5 {
+#g5 {
     grid-area: g5;
     place-self: center;
 }
 
-.l4 {
+#l4 {
     grid-area: l4;
     place-self: center;
 }
 
-.l5 {
+#l5 {
     grid-area: l5;
     place-self: center;
 }
