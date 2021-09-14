@@ -7,7 +7,7 @@
     grid-template-columns: min-content repeat(8, 1fr);
     grid-template-rows:fit-content min-content min-content repeat(6, 1fr);
     grid-template-areas:
-        "header header header header header header header header header"
+        "header header header header header header header header back"
         "hsub hsub hsub hsub hsub hsub hsub hsub hsub"
         "sidesub . h1 h2 h3 h4 h5 h6 h7"
         "sidesub sh1 s1 s2 s3 s4 s5 s6 s7"
@@ -15,7 +15,7 @@
         "sidesub sh3 f1 f2 f3 f4 f5 f6 f7"
         "sidesub sh4 a1 a2 a3 a4 a5 a6 a7"
         "sidesub sh5 g1 g2 g3 g4 g5 g6 g7"
-        "sidesub sh6 l1 l2 l3 l4 l5 l6 back";
+        "sidesub sh6 l1 l2 l3 l4 l5 l6 .";
     gap: .5vw;
 }
 

@@ -7,7 +7,7 @@
     grid-template-columns: repeat(13, 1fr);
     grid-template-rows:fit-content repeat(6, fit-content) 1fr repeat(4, fit-content);
     grid-template-areas:
-        "header header header header header header header header header header header header header"
+        "header header header header header header header header header header header header back"
         "c1 l1 l1 l1 . . . . . . . . ."
         "c1 c2 . . . . . . . . . . ."
         ". c2 c3 . . . . . . . . c12 c13"
