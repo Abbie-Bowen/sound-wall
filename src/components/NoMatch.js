@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import { withRouter, Link } from "react-router-dom";
 
-class About extends Component {
+class NoMatch extends Component {
     render () {
         return(
-            <div className="about">
-                <h1>This is the about page</h1>
-                <p>This is some text about the app.</p>
+            <div className="404">
+                <h1>Oops!</h1>
+                <p>Sorry, the page you were trying to find doesn't exist!</p>
                 <div className="sub_nav back">
                     <Link to="/">Home</Link>
                 </div>
@@ -15,4 +15,4 @@ class About extends Component {
     }
 }
 
-export default withRouter(About);
+export default withRouter(NoMatch);
