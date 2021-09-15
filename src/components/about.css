@@ -1,0 +1,27 @@
+.about {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.why h1{
+    font-size: 3em;
+    margin:0;
+}
+
+.why {
+    background-color: lightcyan;
+    padding: 5%;
+    margin: 3%;
+}
+
+.dev h3 {
+    font-size: 2em;
+    margin:0;
+}
+
+.dev {
+    background-color: lightsalmon;
+    padding: 5%;
+    margin: 3%;
+}
